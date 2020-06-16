@@ -27,7 +27,7 @@ void selection_sort(int *array, size_t size)
 				aux = x;
 			}
 		}
-		if (aux)
+		if (aux != i)
 		{
 			tmp = array[i];
 			array[i] = min;
