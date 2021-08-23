@@ -29,5 +29,6 @@ int partition(int *array, size_t size, int low, int high);
 void partition_lomuto(int *array, size_t size, int low, int high);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
 
 #endif
